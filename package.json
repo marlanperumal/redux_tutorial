@@ -1,0 +1,41 @@
+{
+  "name": "react-flask-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for setting up React WebApps running on a simple Flask web server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eighty20/react-flask-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "flask",
+    "gulp",
+    "watchify",
+    "browserify",
+    "boilerplate"
+  ],
+  "author": "Marlan Perumal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eighty20/react-flask-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Eighty20/react-flask-boilerplate#readme",
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.1",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.7",
+    "lodash.assign": "^4.2.0",
+    "reactify": "^1.1.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}
