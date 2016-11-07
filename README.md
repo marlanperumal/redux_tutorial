@@ -34,7 +34,7 @@ mkvirtualenv --python=/usr/bin/python3 training
 ```
 1. If your virtual environment is not immediately activated, enter it with
 ```bash
-workon Training
+workon training
 ```
 1. Install the required python packages
 ```bash
