@@ -16,31 +16,41 @@ Boilerplate for setting up new React Projects running on a simple Flask webserve
 - [Watchify](https://github.com/substack/watchify)
 
 ## Installation instructions
-1. Clone this repository
+1. Clone this repository with a new project name
 ```bash
-git clone https://github.com/Eighty20/react-flask-boilerplate
+git clone https://github.com/Eighty20/react-flask-boilerplate new_project
 ```
-1. Checkout the `develop` branch
+3. Create a new repository on github or bitbucket with the same name
+2. Enter the directory you just created
 ```bash
-git checkout develop
+cd new_project
 ```
-1. Set up `git flow`
+4. Set the remote origin of your project to the new repository and push
+```bash
+git remote set-url origin https://github.com/Eighty20/new_project
+git push origin master
+```
+3. Set up `git flow`
 ```bash
 git flow init -d
 ```
-1. Set up a new python virtual environment
+2. Checkout the `develop` branch
+```bash
+git checkout develop
+```
+4. Set up a new python virtual environment
 ```bash
 mkvirtualenv --python=/usr/bin/python3 training
 ```
-1. If your virtual environment is not immediately activated, enter it with
+5. If your virtual environment is not immediately activated, enter it with
 ```bash
 workon training
 ```
-1. Install the required python packages
+6. Install the required python packages
 ```bash
 pip install -r requirements.txt
 ```
-1. Install the required node modules
+7. Install the required node modules
 ```bash
 npm install
 ```
@@ -50,12 +60,12 @@ npm install
 ```bash
 gulp
 ```
-1. In another terminal, start the webserver
+2. In another terminal, start the webserver
 ```bash
 ./run.sh
 ```
-1. In a browser, navigate to
+3. In a browser, navigate to
 ```
 http://localhost:5000
 ```
-1. Read the documentation on each of the technologies to figure out where to go from there.
+4. Read the documentation on each of the technologies to figure out where to go from there.
