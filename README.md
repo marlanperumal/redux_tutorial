@@ -29,7 +29,7 @@ Boilerplate for setting up new React Projects running on a simple Flask webserve
 1. Set the remote origin of your project to the new repository and push
 
         git remote set-url origin https://github.com/Eighty20/new_project
-        git push origin master
+        git push -u origin master
 
 1. Set up `git flow`
 
