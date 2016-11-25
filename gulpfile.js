@@ -16,8 +16,7 @@ var customOpts = {
 var opts = assign({}, watchify.args, customOpts);
 var b = watchify(browserify(opts));
 
-b.transform('reactify');
-b.transform('babelify', {presets: ["es2015"]})
+b.transform('babelify', {presets: ["es2015", "react"]})
 // add transformations here
 // i.e. b.transform(coffeeify);
 
