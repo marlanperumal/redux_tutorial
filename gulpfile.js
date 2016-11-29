@@ -10,7 +10,7 @@ var assign = require('lodash.assign');
 
 // add custom browserify options here
 var customOpts = {
-  entries: ['./static/scripts/jsx/index.js'],
+  entries: ['./scripts/jsx/index.js'],
   debug: true
 };
 var opts = assign({}, watchify.args, customOpts);
