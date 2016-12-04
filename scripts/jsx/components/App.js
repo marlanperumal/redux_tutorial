@@ -1,13 +1,14 @@
-var React = require('react');
+import React, { Component  } from 'react'
+import Footer from './Footer'
+import AddTodo from '../containers/AddTodo'
+import VisibleTodoList from '../containers/VisibleTodoList'
 
-var App = React.createClass({
-    render: function(){
-        return(
-            <div>
-                Hello World!
-            </div>
-        );
-    }
-});
+const App = () => (
+    <div>
+        <AddTodo />
+        <VisibleTodoList />
+        <Footer />
+    </div>
+)
 
-module.exports = App;
+export default App
